@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: Blue;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.navbar {
+    background-color: rgb(119, 119, 119);
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#content {
+    margin: 40px;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+
+.messages .success {
+    border: 2px solid green;
+}
+
+
+.messages .error {
+    border: 2px solid red;
+}

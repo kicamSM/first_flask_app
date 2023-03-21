@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Lucky{% endblock %}
+
+{% block page_name %}Lucky page{% endblock %}
+
+{% block content %}
+    <h1>Your Lucky Number is: {{lucky_num}}</h1>
+    <p>{{msg}}</p>
+    {% if lucky_num == 3 %}
+    <h2>We have the same lucky number!!</h2>
+    <img src="https://media-api.xogrp.com/images/ad1a6796-0ec6-487c-b95a-bd73f60c7a0e" alt="">
+    {% else %}
+    <h2>I do not like {{lucky_num}}</h2>
+    {%endif%}
+{% endblock %}
